@@ -1,7 +1,9 @@
-body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg.jpg) right no-repeat fixed #fff; -webkit-font-smoothing:antialiased;}
+body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg.jpg) no-repeat center center fixed #fff; -webkit-font-smoothing:antialiased;}
 
-a{color:#00a9c6; text-decoration:none;}
-a:hover{color:#666;}
+
+a{color:#ecd9c6; text-decoration:none;}
+.contact a{color:#000;}
+a:hover{color:#4d1300;}
 .btn,a,.btn:hover,a:hover {
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
@@ -17,7 +19,10 @@ h3{font:300 2em Work Sans,Arial,Helvetica;margin:2em 0 1em 0;font-weight:600;}
 h4{font:300 1.5em Work Sans,Arial,Helvetica;margin-bottom: 1em;font-weight:600;}
 h4 i{margin-right: 0.5em;}
 
-p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
+p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
+
+.fresh {font-weight:600; color:#4d1300; padding-bottom: 20px; padding-top: 10px;}
+.fresh-locations {font-weight:600; color:#4d1300;}
 
 .spacer{padding: 6em 0;}
 .menu-spacer{height: 20px;}
@@ -30,9 +35,12 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#333;box-shadow: none;}
 
 /*.topbar {background:url(../images/lines.png);	height:5px;position: fixed;top: 0;width: 100%;z-index: 1000;}*/
-.navbar-nav > li > a{font-size: 1em;line-height: 3.6em;font-family: Josefin Sans,Arial,Helvetica;}
+.navbar-nav > li > a{font-size: 1.5em;line-height: 4em;font-family: Josefin Sans,Arial,Helvetica;}
 /*.navbar-fixed-top{top: 5px;}*/
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background: none;color: #fff;}
+.navbar {height: 100px;}
+.navbar-brand {padding-top: 5px;}
+.navbar-brand img{height: 90px;}
 
 #head,.carousel{margin-top: 0;}
 
@@ -48,11 +56,14 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .banner a.explore{color: #fff;}
 
 /*about*/
-.about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;}
+.about-spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;}
 .food-list{line-height:3em;border-bottom:1px dotted #ccc; }
-.panel-group .panel{border-radius: 0;border:none;}
-.panel-group .panel a:hover{text-decoration: none;}
-
+.panel-group .panel .panel-heading {background-color: #ecd9c6;}
+.panel-group .panel{border-radius: 0; border:2px solid #4d1300; background-color: #ecd9c6;}
+.panel-group .panel a{color: #4d1300;}
+.panel-group .panel a:hover{color: #000; text-decoration: none;}
+.adobe-logo{padding-bottom: 10px;}
+.about-space{height: 30px;}
 
 
 /*testimonials*/
@@ -76,7 +87,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .locations b{font-size: 1.2em;display: block;}
 .locations a i.fa{color: #fff; font-size: 2em;}
 .locations a i.fa:hover{color: #E89F10;}
-.history {padding: 5px 10px 0 10px;}
+.history {padding: 5px 20px 0 20px;}
 
 
 .highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
@@ -101,7 +112,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 @media (max-width: 1200px) {
 	body{font:300 13px/13px Work Sans,Arial,Helvetica;font-weight:600;}
-	.navbar-brand{padding-top: 11px;}
+	.navbar-brand{padding-top: 5px;}
 	.services ul li{margin:0 0.5em; }
 
 	.grid figure h2{font: 700 1.5em Work Sans,Arial,Helvetica;font-weight: 600;}
@@ -127,11 +138,12 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 @media (max-width: 767px) {
 	body{font:300 12px/12px Work Sans,Arial,Helvetica;font-weight:600;}
 	.navbar-nav > li > a {line-height: 1em;}
-	.navbar-brand{padding: 7px;}
-	.navbar-brand img{height: 37px;}
+	.navbar-brand{padding-top: 5px; padding-left: 5px;}
+	.navbar-brand img{height: 50px;}
 	.navbar-toggle{margin-top: 12px;}
+	.navbar{height: 70px;}
 
-	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: none;}
+/*	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: none;}*/
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
 	h4 {font: 300 1.2em Work Sans,Arial,Helvetica;font-weight:600;}
@@ -151,4 +163,15 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.grid.team div{margin: 0;padding: 0;}
 	figure.effect-chico figcaption {padding: 1.5em;}
 	.footer{padding-bottom: 2em;}
+}
+
+@media (min-width: 800px){
+	.banner{padding-top: 90px;}
+}
+
+@media (max-width: 799px){
+	.banner{padding-top: 10px;}
+	.banner .header-text h1{font-size: 3em; padding: 0 15px 0 15px;}
+	.banner .header-text p{font-size: 1em; padding: 0 10px 0 10px;}
+	.spacer h2{padding-left: 20px;}
 }
