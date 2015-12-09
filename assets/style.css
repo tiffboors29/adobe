@@ -34,7 +34,7 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 .fresh-locations {font-weight:600; color:#4d1300;}
 
 .spacer{padding: 6em 0;}
-.menu-spacer{height: 30px;}
+.menu-spacer{height: 40px;}
 
 .btn{border:none;border-radius: 0;padding: 1em 4em;background: rgba(0,0,0,0.5);text-transform: uppercase;}
 .btn:hover,.btn:active{color: #fff;}
@@ -81,7 +81,7 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 .panel-group .panel a{color: #4d1300;}
 .panel-group .panel a:hover{color: #000; text-decoration: none;}
 .adobe-logo{padding-bottom: 10px;}
-.about-space{height: 30px;}
+.about-space{height: 40px;}
 
 
 /*testimonials*/
