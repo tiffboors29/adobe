@@ -193,7 +193,7 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 @media (max-width: 799px){
 	.banner{padding-top: 10px;}
-	.banner .header-text h1{font-size: 2em; padding: 0 15px 0 15px;}
+	.banner .header-text h1{font-size: 2em; padding: 10px 15px 0 15px;}
 	.banner .header-text p{font-size: 1em; padding: 0 10px 0 10px;}
 	.spacer h2{padding-left: 20px;}
 }
