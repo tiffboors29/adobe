@@ -5,6 +5,11 @@ jQuery(document).ready(function($) {
     $(".scroll li").removeClass('active');
     $(this).parents('li').toggleClass('active');
   });
+
+  $('.nav a').on('click', function(){
+    $('.navbar-toggle').click();
+  });
+
 });
 
 var wow = new WOW(
