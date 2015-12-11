@@ -7,7 +7,7 @@ html, body {
 	overflow-x: hidden;
 }
 
-body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg.jpg) no-repeat center center fixed #fff; -webkit-font-smoothing:antialiased;}
+body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/chipsbg.jpg) no-repeat center center fixed #fff; -webkit-font-smoothing:antialiased;}
 
 
 a{color:#ecd9c6; text-decoration:none;}
@@ -32,6 +32,8 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .fresh {font-weight:600; color:#4d1300; padding-bottom: 20px; padding-top: 10px;}
 .fresh-locations {font-weight:600; color:#4d1300;}
+.fresh a{color:#4d1300}
+.fresh a:hover, .fresh a:focus{color:#000}
 
 .spacer{padding: 6em 0;}
 .menu-spacer{height: 40px;}
@@ -108,7 +110,12 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 .history {padding: 5px 20px 0 20px;}
 
 #locations {padding-bottom: 10px;}
+.locations h4{color: #000; padding-top: 10px;}
 
+
+.catering h4{color: #000; padding-top: 10px;}
+.catering a{color: #4d1300;}
+.catering a:hover, .catering a:focus{color: #222;}
 
 .highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
 .highlight-info .overlay{background:rgba(59, 51, 48, 0.7);}
