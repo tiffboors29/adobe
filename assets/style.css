@@ -117,6 +117,9 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 .catering a{color: #4d1300;}
 .catering a:hover, .catering a:focus{color: #222;}
 
+.catering-spacer {background:url(../images/paintLine1.jpg) no-repeat center center fixed; height: 200px;}
+.catering-spacer-b {background:url(../images/paintLine2.jpg) no-repeat center center fixed; height: 200px;}
+
 .highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
 .highlight-info .overlay{background:rgba(59, 51, 48, 0.7);}
 .highlight-info h4{color: #fff;margin:0.5em 0 0 0;}
