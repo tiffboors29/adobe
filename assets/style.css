@@ -110,7 +110,9 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 .history {padding: 5px 20px 0 20px;}
 
 #locations {padding-bottom: 10px;}
+.locations a{color: #000;}
 .locations h4{color: #000; padding-top: 10px;}
+
 
 
 .catering h4{color: #000; padding-top: 10px;}
