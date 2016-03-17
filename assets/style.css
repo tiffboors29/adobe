@@ -32,6 +32,7 @@ h4 i{margin-right: 0.5em;}
 
 p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 
+.alert-header{ background: #fff; color: #4d1300; border: 3px solid #4d1300; border-radius: 5px; padding: 8px;}
 .fresh {font-weight:600; color:#4d1300; padding-bottom: 20px; padding-top: 10px;}
 .fresh-locations {font-weight:600; color:#4d1300;}
 .fresh a{color:#4d1300}
@@ -168,6 +169,7 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 @media (max-width: 900px) {
 	h1{font: 700 3.5em Work Sans,Arial,Helvetica;font-weight:600;}
+	.alert-header{font: 300 1em Work Sans,Arial,Helvetica;}
 	h4 {font: 300 1.3em Work Sans,Arial,Helvetica;font-weight:600;}
 	.btn{padding: 1em 2em;}
 	.partners img{margin: 0 15px 25px 0;width: 157px;}
