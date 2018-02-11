@@ -224,3 +224,10 @@ p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.spacer h2{padding-left: 20px;}
 	.small-locations p{font-size: .3em;}
 }
+
+
+#delivery {
+	img {
+		width: 90%;
+	}
+}
